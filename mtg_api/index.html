@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MTG API</title>
+    <link rel="stylesheet" type="text/css" href = "style.css">
+    <script src="https:/ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <div class="leftDiv">
+      <img class='banner' src="http://pro.bols.netdna-cdn.com/wp-content/uploads/2015/11/magic-logo.png">
+
+      <div class="btn-group" role="group" aria-label="...">
+        <input id="searchInput"></input>
+        Search by:
+        <button id="nameButton" type="button" class="btn btn-default">Name</button>
+        <button id="typeButton" type="button" class="btn btn-default">Type</button>
+      </div>
+        <label class="checkbox-inline"><input type="checkbox" id='blue' value="blue">Blue</label>
+        <label class="checkbox-inline"><input type="checkbox" id='black' value="black">Black</label>
+        <label class="checkbox-inline"><input type="checkbox" id='red' value="red">Red</label>
+        <label class="checkbox-inline"><input type="checkbox" id='green' value="green">Green</label>
+        <label class="checkbox-inline"><input type="checkbox" id='white' value="white">White</label>
+      <div>
+
+        <label class="checkbox-inline"><input type="checkbox" id='blue' value="blue">Common</label>
+        <label class="checkbox-inline"><input type="checkbox" id='black' value="black">Uncommon</label>
+        <label class="checkbox-inline"><input type="checkbox" id='red' value="red">Rare</label>
+        <label class="checkbox-inline"><input type="checkbox" id='green' value="green">Mythic Rare</label>
+      </div>
+      <div>
+        <button id="setsButton">List all sets</button>
+        Enter set code:
+        <input id="setSearch"></input>
+        <button id="boosterButton">Generate booster</button>
+      </div>
+    </div>
+     <div id="result" class="rightDiv">
+     </div>
+  </body>

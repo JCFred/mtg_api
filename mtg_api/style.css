@@ -1,0 +1,17 @@
+
+.banner{
+  height: 200px;
+  margin: 0px;
+}
+.leftDiv {
+    float: left;
+    width: 500px;
+    height: 1000px;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-right: 8px;
+}
+.rightDiv {
+    height: 100vh;
+    margin-left: 500px;
+}​
